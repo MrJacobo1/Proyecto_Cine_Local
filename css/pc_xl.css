@@ -1,0 +1,50 @@
+@media screen and (min-width: 1200px) {
+    /* Seccion de Estrenos*/
+    #estreno article{
+        width: 70%;
+    }
+    #estreno p{
+        font-size: 1.5rem;
+        border-bottom: 10px;
+    }
+    /* Seccion de Elegir cine*/
+    #elegir span{
+        font-size: 3rem;
+    }
+    #seleccion, #seleccion2{
+        font-size: 1.5rem;
+        width: 250px;
+        height: 30px;
+    }#elegir a{
+        font-size: 1.8rem;
+        width: 150px;
+    }
+    /* Seccion de cartelera*/
+    #cartelera h1{
+		font-size: 4rem;
+	}
+    .pelicula{
+        width: 30%;
+        display: inline-block;
+        margin: 0 1.5%;
+        margin-bottom: 3%;
+    }
+    .pelicula h2{
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    #cartelera img{
+        height: 500px;
+    }
+    #cartelera a{
+        display: none;
+    }
+    #cartelera p{
+        font-family: 'Poppins', sans-serif;
+		font-size: 1rem;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+    }
+    
+}

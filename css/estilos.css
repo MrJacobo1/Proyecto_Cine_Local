@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+/* font-family: 'Shadows Into Light', cursive; */
+/* font-family: 'Raleway', cursive*/
+/* font-family: 'Cormorant Garamond', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+/* font-family: 'Open Sans', sans-serif*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/* font-family: 'Poppins', sans-serif;*/
+@font-face{
+    font-family: 'Redes';
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 0px;
+	margin-top: 75.84px;
+}
+header, .contenido, footer{
+	min-width: 320px;
+}
+#menu-toggle{
+	display: none;
+}
+/* -------- header -------- */
+	header{
+		background-color: #000;
+		font-family: 'Raleway', cursive;
+		width: 100%;
+		padding: 5px 5%;
+		position: fixed;
+		top: 0px;
+	}
+		#empresa{
+			width: 20%;
+			min-width: 280px;
+			display: inline-block;
+			text-decoration: none;
+			color: #fff;
+		}
+			#logotipo{
+				width: 75px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+		.menu-toggle{
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			border: 1px solid #fff;
+			font-size: 2rem;
+			color: #fff;
+			position: absolute;
+			right: 5%;
+			top: 15px;
+		}
+		#menuPrincipal{
+			height: 0px;
+			transition: all 0.5s ease-in-out;
+			overflow: hidden;
+		}
+		#menu-toggle:checked ~ #menuPrincipal{
+			height: 150px;
+		}
+			.opcion{
+				display: block;
+				font-size: 1rem;
+				color: #fff;
+				padding: 10px;
+				text-decoration: none;
+			}
+			.opcion:hover{
+				color: #fbff00;
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+        .contenido{
+            padding: 5%;
+            text-align: center;
+        }
+        /* Seccion de estreno*/
+	#estreno{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#estreno article{
+		width: 300px;
+		height: 430px;
+		border: 2px solid #fff;
+		background-color: #000;
+		margin-bottom: 20px;
+		border-radius: 5% 5%;
+	}
+    #estreno h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 2rem;
+		text-align: center;
+		color: #fff;
+		margin: 0;
+	}
+	#estreno img{
+		width: 300px;
+		height: 300px;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin: 0;
+		border-radius: 5% 10%;
+	}
+	#estreno p{
+		display: none;
+	}
+	#estreno div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#estreno a{
+		font-size: 1rem;
+		font-family: 'Poppins', sans-serif;
+		text-decoration: none;
+		display: block;
+		width: 100px;
+		padding: 10px;
+		border-radius: 5px;
+		color:#fff;
+		text-align: center;
+		margin: 0 auto;
+		border: 2px solid #fff;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+		/* Seccion De elegir cine*/
+		#elegir{
+			background: rgb(2,0,36);
+			background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 82%, rgba(0,52,255,1) 100%);
+
+		}
+		#elegir span{
+			font-size: 1rem;
+			font-family: 'Cormorant Garamond', serif;
+			color: #fff;
+			padding: 10px;
+		}
+		.formulario{
+			display: inline-block;
+			margin-left: auto;
+			margin-right: 15px;
+			padding: 5px 5px;
+		}
+		#elegir a{
+			font-size: 1rem;
+			text-decoration: none;
+			display: block;
+			background-color: #09a2bc;
+			width: 100px;
+			padding: 10px;
+			border-radius: 5px;
+			color: #000;
+			border: 1px solid skyblue;
+			text-align: center;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+		option{
+			background-color: #c1e7ee;
+		}
+		/* Seccion de Cartelera*/
+	#cartelera h1{
+		font-size: 2.5rem;
+		font-family: 'Cormorant Garamond', serif;
+		color: #fff;
+	}
+	#cartelera{
+		background-color: #000;
+		font-family: 'Raleway', cursive
+	}
+	#cartelera img{
+		width: 100%;
+	}
+	.pelicula h2{
+		font-size: 1.3rem;
+		color: #fff;
+		text-align: center;
+	}
+	#cartelera article{
+		margin-top: 20px;
+		font-family: 'Shadows Into Light', cursive;
+		border: 2px solid #fff;
+		border-radius: 10px 10px;
+		padding: 8px;
+	}
+	#cartelera a{
+		font-size: 1.2rem;
+		text-decoration: none;
+		display: block;
+		background-color: #000000;
+		width: 100px;
+		padding: 10px;
+		border-radius: 5px;
+		color: #e2bb0a;
+		border: 1px solid rgb(106, 11, 179);
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	/* Footer*/
+	footer{
+		background-color: #000;
+		border-top: 1px solid #fff;
+	}
+
+	#redes, #derechos{
+		width: 50%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#redes{
+		text-align: left;
+		padding: 10px 20px;
+	}
+
+		#redes a{
+			font-size: 1rem;
+			font-family: Redes;
+			color: #fff;
+		}
+		#derechos{
+			padding: 0 20px;
+			font-size: 0.5rem;
+			color: #fff;
+			font-family: Bubble, cursive;
+			text-align: right;
+		}

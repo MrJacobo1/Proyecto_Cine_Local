@@ -1,0 +1,100 @@
+@media screen and (min-width: 768px) {
+    #nombre{
+        font-size: 2rem;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    .menu-toggle{
+        display: none;
+    }
+    #menuPrincipal{
+        height: 40px;
+        text-align: right;
+        font-size: 2rem;
+        position: absolute;
+        right: 5%;
+        top: 15px;
+    }
+        .opcion{
+            display: inline;
+        }
+        .opcion:hover{
+            background-color: transparent;
+        }
+        /* Seccion de estrenos*/
+        #estreno article{
+            width: 80%;
+            height: auto;
+        }
+        #estreno h1{
+            font-size: 3rem;
+        }
+        #estreno img{
+            width: 100%;
+            
+        }
+        #estreno p{
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+		    font-size: 1rem;
+		    color: #fff;
+		    padding: 5px;
+		    text-align: center;
+        }
+        #estreno a{
+            display: none;
+        }
+        /* Seccion de elegir cine */
+        #elegir{
+            background: rgb(2,0,36);
+            background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 82%, rgba(0,52,255,1) 100%);
+        }
+        #elegir span{
+            font-size: 2rem;
+        }
+        #seleccion, #seleccion2{
+            font-size: 1rem;
+            width: 155px;
+            height: 20px;
+        }
+        .formulario{
+			display: inline-block;
+			margin-left: auto;
+			margin-right: 70px;
+			padding: 5px 5px;
+		}
+        /* Seccion de Cartelera*/
+        #cartelera img{
+            width: 100%;
+            height: 500px;
+        }
+        .pelicula{
+            width: 47%;
+            display: inline-block;
+            margin: 0 1.5%;
+            margin-bottom: 3%;
+        }
+        .pelicula h2{
+            font-size: 1rem;
+            color: #fff;
+        }
+        /* Seccion de Footer*/
+        #redes{
+            text-align: left;
+            padding: 10px 20px;
+        }
+    
+            #redes a{
+                font-size: 1.5rem;
+                font-family: Redes;
+                color: #fff;
+            }
+            #derechos{
+                padding: 0 20px;
+                font-size: 1rem;
+                color: #fff;
+                font-family: Bubble, cursive;
+                text-align: right;
+            }
+}

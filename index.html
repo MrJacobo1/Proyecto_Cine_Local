@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/tablet_md.css">
+    <link rel="stylesheet" href="css/pc_xl.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/Logo.png">
+    <title>Tu cine favorito</title>
+</head>
+<body>
+    <header id="cabecera">
+		<a id="empresa" href="index.html">
+			<img id="logotipo" src="imagenes/Logo.png" />
+			<figcaption id="nombre">Cine favorito</figcaption>
+		</a>
+		<input type="checkbox" class="checkbox" id="menu-toggle" />
+		<label for="menu-toggle" class="menu-toggle">&equiv;</label>
+
+		<nav id="menuPrincipal">
+			<a class="opcion" href="index.html#estreno">Estreno de la semana</a>
+			<a class="opcion" href="index.html#elegir">Elegir cine</a>
+			<a class="opcion" href="index.html#cartelera">Cartelera</a>
+		</nav>
+	</header>
+
+
+    <section id="estreno" class=contenido">
+        <article>
+            <h1>Estreno</h1>
+            <img src="imagenes/poster.jpg" alt="">
+            <p>
+                La película encuentra a Thor (Chris Hemsworth) en un viaje diferente a todo lo que ha enfrentado: 
+                Una búsqueda de la paz interior. Pero su retiro es interrumpido por un asesino galáctico conocido
+                como Gorr el carnicero de dioses (Christian Bale), que busca la extinción de los dioses.
+            </p>
+            <div>
+                <a href="#">Ver mas</a>
+            </div>
+        </article>
+    </section>
+
+    <section id="elegir" class="contenido">
+        <article>
+            <article class="formulario">
+                <span>Elegir Ciudad: </span>
+                <select name="ciudad" id="seleccion">
+                    <option value="">Ciudad de Mexico</option>
+                    <option value="">Leon</option>
+                    <option value="">Guadalajara</option>
+                </select>
+            </article>
+            <article class="formulario">
+                <span>Elegir cine: </span>
+                <select name="cine" id="seleccion2">
+                    <option value="">Cine 1</option>
+                    <option value="">Cine 2</option>
+                    <option value="">Cine 3</option>
+                </select>
+            </article>
+            <a href="index.html#cartelera">Cartelera</a>
+        </article>
+    </section>
+
+    <section id="cartelera" class="contenido">
+        <h1>Cartelera</h1>
+        <article class="pelicula">
+            <img src="imagenes/poster_doctor.jpg" alt="">
+            <h2>Doctor Strange en el Multiverso de la Locura</h2>
+            <p>
+                Después de los eventos de Endgame, Dr.Strange continúa su investigación
+                sobre la Time Stone. Pero un viejo amigo convertido en enemigo pone fin
+                a sus planes y hace que Strange desate una maldad indescriptible.
+            </p>
+            <a href="#" class="btn">Ver mas</a>
+        </article>
+        <article class="pelicula">
+            <img src="imagenes/poster_haffman.jpg" alt="">
+            <h2>Adiós Señor Haffmann</h2>
+            <p>
+                París, 1942. François Mercier es un hombre común que solo aspira a formar 
+                una familia con la mujer que ama, Blanche. También es el empleado de un 
+                talentoso joyero, el señor Haffmann. Pero ante la ocupación alemana durante 
+                la Segunda Guerra Mundial, los dos hombres no tienen más remedio que llegar
+                a un acuerdo cuyas consecuencias, a lo largo de varios meses, cambiarán el 
+                destino de los tres personajes.
+            </p>
+            <a href="#" class="btn">Ver mas</a>
+        </article>
+        <article class="pelicula">
+            <img src="imagenes/poster_jurassic.jpg" alt="">
+            <h2>Jurassic World: Dominio</h2>
+            <p>
+                Cuatro años después de la destrucción de Isla Nublar, los dinosaurios ahora 
+                conviven -y cazan- con los seres humanos en todo el mundo. Este frágil equilibrio 
+                remodelará el futuro y determinará, de una vez por todas, si los seres humanos seguirán
+                en la cúspide de los depredadores en un planeta que comparten con los animales más temibles de la creación.
+            </p>
+            <a href="#" class="btn">Ver mas</a>
+        </article>
+        <article class="pelicula">
+            <img src="imagenes/poster_light.jpg" alt="">
+            <h2>Lightyear</h2>
+            <p>
+                La película cuenta los orígenes de Buzz Lightyear, el héroe que inspiró el juguete, 
+                y nos da a conocer la historia de este legendario Guardián Espacial narrada como 
+                una apasionante aventura intergaláctica.
+            </p>
+            <a href="#" class="btn">Ver mas</a>
+        </article>
+        <article class="pelicula">
+                <img src="imagenes/poster_minion.jpg" alt="">
+                <h2>Minions: Nace Un Villano</h2>
+                <p>
+                    La película cuenta los orígenes de Buzz Lightyear, el héroe que inspiró el juguete, 
+                    y nos da a conocer la historia de este legendario Guardián Espacial narrada como 
+                    una apasionante aventura intergaláctica.
+                </p>
+                <a href="#" class="btn">Ver mas</a>
+        </article>
+        <article class="pelicula">
+                <img src="imagenes/poster_top.jpg" alt="">
+                <h2>Top Gun: Maverick</h2>
+                <p>
+                    Después de más de treinta años de servicio como uno de los mejores aviadores de la Armada, 
+                    Pete "Mavericks" Mitchel (Tom Cruise) se encuentra donde siempre quiso estar: superando los 
+                    límites como un valiente piloto de pruebas y esquivando el ascenso de rango, que no le dejaría volar emplazándolo en tierra
+                </p>
+                <a href="#" class="btn">Ver mas</a>
+        </article>
+    </section>
+    
+    <footer>
+        <section id="redes">
+            <a href="facebook.com" class="material-symbols-outlined">N</a>
+            <a href="instragram.com" class="material-symbols-outlined">A</a>
+            <a href="twitter.com" class="material-symbols-outlined">G</a>
+        </section>
+        <span id="derechos">Copyrigth 2022 - Tu cine Favorito</span>
+    </footer>
+    
+</body>
+</html>
